@@ -1,0 +1,114 @@
+<!-- Este é um comentário em HTML. -->
+<!DOCTYPE html>
+<!-- Este é o DTD do HTML5. -->
+<!-- Document Type Definition é a instrução que vai orientar o browser a carregar o conjunto correto de bibliotecas da versão do HTML em questão. -->
+
+<html lang="pt-br">
+  <!-- primeiro filho do html = head. -->
+  <head>
+    <!-- Os filhos do head são em sua maioria tags de metadados. Ex: meta. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width:device-width,initial-scale=1.0" />
+    <title>Página Básica</title>
+  </head>
+  <!-- segundo filho do html = body -->
+  <body>
+    <div class="container">
+      <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
+      <header class="cabecalho">
+        <h1
+          style="
+            text-align: center;
+            color: #fff;
+            background-color: #2b2828;
+            padding: 20px 0;
+            box-shadow: 4px 3px 5px #3a3939;
+            border-radius: 5px;
+            font-size: 64px;
+          "
+        >
+          Minha Página
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="./paginas/help.html">Help</a></li>
+            <li><a href="./paginas/about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="conteudo-principal">
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help -Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Placeat sunt temporibus in culpa assumenda omnis quasi vero magni
+            voluptatibus odit velit cumque aspernatur impedit ea ratione
+            repellendus modi voluptates corrupti amet quis, harum nostrum optio.
+            Consequuntur nostrum dolor, odio eaque quis doloremque quod
+            temporibus inventore molestiae cupiditate. Consequatur, expedita
+            nobis! At, dignissimos. Ipsa, repellendus possimus cum non sunt
+            praesentium pariatur nisi enim quia, ea mollitia facere esse. Quod
+            quibusdam quo, alias.
+          </p>
+          <a href="./paginas/help.html"> Mais...</a>
+        </div>
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            About - Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Adipisci veritatis sit beatae tempore perferendis eum dolorum
+            quibusdam blanditiis. Excepturi corporis consectetur quam provident
+            porro distinctio autem atque, dolorem assumenda in recusandae saepe
+            ea architecto, asperiores maxime! Esse ducimus temporibus dolor
+            quae, ad voluptatem. Asperiores tenetur fugit illo impedit dolore
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos ullam labore iure fugit saepe veritatis similique
+            exercitationem odio odit.
+          </p>
+          <a href="./paginas/about.html">Mais...</a>
+        </div>
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Contact</legend>
+              <div>
+                <lavel for="">Name</lavel>
+                <input
+                  type="text"
+                  name="txtNm"
+                  id="idNm"
+                  placeholder="Type your name..."
+                />
+              </div>
+              <div>
+                <lavel for="">Email</lavel>
+                <input
+                  type="Email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Type your email..."
+                />
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <nav>
+          <ul>
+            <li><a href="https://www.fiap.com.br" target="_blank"> FIAP</a></li>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://github.com" target="_blank">Github</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
