@@ -10,30 +10,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width:device-width,initial-scale=1.0" />
     <title>Página Básica</title>
-  </head>
-  <!-- segundo filho do html = body -->
-  <body>
-    <div class="container">
-      <!-- O container é uma div teste que serve como contêiner geral para todo o conteúdo da página. -->
-      <header class="cabecalho">
-        <h1
-          style="
-            text-align: center;
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        .cabecalho > h1{
+        text-align: center;
             color: #fff;
             background-color: #2b2828;
             padding: 20px 0;
             box-shadow: 4px 3px 5px #3a3939;
             border-radius: 5px;
             font-size: 64px;
-          "
-        >
+      }
+      .cabecalho ul{
+        list-style: none;
+       
+        
+      }
+
+      #cabecalho nav{
+        margin: 15px 0;
+        
+      }
+
+      .cabecalho li{
+        display: inline-block;
+        margin:  0 10%;
+
+      }
+
+      .cabecalho li img{
+        display: block;
+        width: 50%;
+        min-width: 10%;
+      }
+    </style>
+  </head>
+  <!-- segundo filho do html = body -->
+  <body>
+    <div class="container">
+      <!-- O container é uma div teste que serve como contêiner geral para todo o conteúdo da página. -->
+      <header class="cabecalho">
+        <h1>
           Minha Página
         </h1>
         <nav>
           <ul>
-            <li><a href="./paginas/help.html"><img src="./IMG/help.png" alt="Caixa de texto com uma Interrogação." width="3%"></a></li>
-            <li><a href="./paginas/about.html"><img src="./IMG/about.png" alt="Letra I em um circulo" width="3%"></a></li>
-            <li><a href="#contact"><src="./IMG/about.png" alt="Gancho de um telefone." width="3%"></a></li>
+            <li><a href="./paginas/help.html"><img src="./IMG/help.png" alt="Caixa de texto com uma Interrogação." width=""></a></li>
+            <li><a href="./paginas/about.html"><img src="./IMG/about.png" alt="Letra I em um circulo" width=""></a></li>
+            <li><a href="#contact"><img src="./IMG/contact.png" alt="Letra I em um circulo" width=""></a></li>
           </ul>
         </nav>
       </header>
