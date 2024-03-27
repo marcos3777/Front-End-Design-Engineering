@@ -1,6 +1,18 @@
 /* Estilo para el h1 */
 
 /*Exemplo de regra CSS*/
+
+/*Defina uma cor de fundo para o cabeçalho (<header>) da cor azul.
+Aplique uma fonte serifada para todos os títulos (<h1>, <h2>).
+Faça com que os links da barra de navegação (<nav>) fiquem em negrito.
+Defina uma margem interna de 20 pixels para todos os elementos da classe .container.
+Ajuste o espaçamento entre linhas para 1.5 para todo o conteúdo dentro da <section> com o id conteudo.
+Estilize o formulário de contato (<form>) de forma que tenha uma borda sólida de 1 pixel, cor cinza e padding interno de 10 pixels.
+Aplique uma cor de texto verde para todos os parágrafos (<p>).
+Faça os botões (<button>) dentro do formulário de contato terem uma cor de fundo azul e texto branco.
+Defina uma borda superior de 2 pixels sólida e vermelha para o rodapé (<footer>).
+Todos os headers das páginas devem estar estilizados igualmente, mudando apenas os títulos das páginas e a navegação do menu.*/
+
 html {
   font-size: 16px;
 }
