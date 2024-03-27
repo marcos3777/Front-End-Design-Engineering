@@ -1,0 +1,57 @@
+/* Estilo para el h1 */
+
+/*Exemplo de regra CSS*/
+html {
+  font-size: 16px;
+}
+
+#cabecalho {
+  font-size: 62.5%; /* 1rem = 10px */
+
+  /*Exemplo de background-image*/
+  background-image: url("../img/img-01-banner-1280×640.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*Exemplo de seletores*/
+/*Seletores de tipo*/
+h1 {
+  color: red;
+  font-size: 5em;
+  text-align: center;
+}
+
+/*Seletores de classe*/
+.link {
+  display: inline-block;
+  margin: 0 5% 1% 5%;
+  border: solid 2px red;
+  background-color: rgb(255, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in;
+
+  /*Nesting elementos*/
+  /*Nesting pseudo-elementos*/
+  &:hover {
+    background-color: red;
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+
+    /*Nesting elementos*/
+    img {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+}
+
+/*Seletores de ID*/
+#menu ul {
+  text-align: center;
+}
