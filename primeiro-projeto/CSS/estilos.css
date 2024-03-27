@@ -17,15 +17,45 @@ html {
   font-size: 16px;
 }
 
-#cabecalho {
+.cabecalho {
   font-size: 62.5%; /* 1rem = 10px */
-
   /*Exemplo de background-image*/
   background-image: url("../img/img-01-banner-1280×640.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: blue;
+}
+
+nav {
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+#conteudo {
+  line-height: 1.5;
+}
+
+form {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+p {
+  color: green;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}
+
+footer {
+  border-top: 2px solid red;
 }
 
 /*Exemplo de seletores*/
@@ -34,6 +64,11 @@ h1 {
   color: red;
   font-size: 5em;
   text-align: center;
+}
+
+h1,
+h2 {
+  font-family: serif;
 }
 
 /*Seletores de classe*/
