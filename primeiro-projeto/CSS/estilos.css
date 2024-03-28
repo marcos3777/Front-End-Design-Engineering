@@ -33,7 +33,7 @@ nav {
 }
 
 .container {
-  padding: 20px;
+  padding: 2rem;
 }
 
 #conteudo {
@@ -42,19 +42,19 @@ nav {
 
 form {
   border: 1px solid gray;
-  padding: 10px;
+  padding: 1rem;
 }
 
 p {
   color: green;
 }
 
-button {
+.button-send {
   background-color: blue;
   color: white;
 }
 
-footer {
+.rodape {
   border-top: 2px solid red;
 }
 
